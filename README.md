@@ -22,10 +22,6 @@ Install Software Link
 
     
 
-## Support
-
-For support, email kartikghosh4411@gmail.com or join our Slack channel.
-
 
 
 ## 🚀 About Me
@@ -35,7 +31,11 @@ I am a loyal and trustworthy employee who can work alone or as part of a team. I
 
 
 
-
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://portfolio.kartikchandraghosh.xyz/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kartikghosh4411/)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/kartikghosh4411)
+[![Youtube](https://img.shields.io/badge/youtube-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://www.youtube.com/@kartikghosh4411)
 
 
 ## 🛠 Skills
@@ -54,11 +54,11 @@ many more skill i have.
 
 [@kartikghosh4411](https://www.youtube.com/@kartikghosh4411)
 
-## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://portfolio.kartikchandraghosh.xyz/)
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kartikghosh4411/)
-[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/kartikghosh4411)
-[![Youtube](https://img.shields.io/badge/youtube-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://www.youtube.com/@kartikghosh4411)
+## Support
+
+For support, email kartikghosh4411@gmail.com or join our Slack channel.
+
+
 
 
 
