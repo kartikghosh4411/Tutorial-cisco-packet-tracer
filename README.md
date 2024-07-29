@@ -21,12 +21,18 @@ Install Software Link
 ```
 
 ## Youtube Full Playlists
+
+Youtube Cisco packet tracer full video playlist @kartikghosh4411
+
 ```bash
 https://www.youtube.com/playlist?list=PLWjOBWbvA29V-kG9ACCTdIWDpEEhKUJF6
 ```
 
 
 ## Chat With Me
+
+Please Contact on whatsapp
+
 ```bash
 https://wa.me/+8801837575222
 ```
