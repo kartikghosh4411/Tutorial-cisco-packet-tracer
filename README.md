@@ -20,6 +20,11 @@ Install Software Link
   https://www.netacad.com/courses/packet-tracer
 ```
 
+## Playlists
+```bash
+https://www.youtube.com/playlist?list=PLWjOBWbvA29V-kG9ACCTdIWDpEEhKUJF6
+```
+
     
 
 
