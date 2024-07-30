@@ -1,0 +1,47 @@
+Tutorial Name: Vlan configuration on switch cisco packet tracer
+Tutorial Creator Name: Kartik Chandra Ghosh
+
+Tutorial part - 001
+====================
+1) Create Vlan on cisco switch done
+	vlan 10
+	name sales
+	
+	vlan 20
+	name marketing
+
+2) Then access port on vlan done
+	int range fa0/1-3
+	switchport mode access
+	switchport access vlan 10
+	
+	int range fa0/4-5
+	switchport mode access
+	switchport access vlan 20
+
+3) Then check all vlan all right or not done
+	do show vlan brief
+
+Tutorial part - 002
+====================
+1) Ip assin on pc and laptop done
+	
+	Sales
+	=======
+	ipconfig 192.16.1.1 255.255.255.0
+	ipconfig 192.16.1.2 255.255.255.0
+	ipconfig 192.16.1.3 255.255.255.0
+
+	Marketing
+	==========
+	ipconfig 192.16.1.4 255.255.255.0
+	ipconfig 192.16.1.5 255.255.255.0
+	ipconfig 192.16.1.6 255.255.255.0
+
+2) Then check all work or not working
+
+Thank you
+Kartik Chandra Ghosh
+@kartikghosh4411
+	
+
