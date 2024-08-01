@@ -1,0 +1,84 @@
+Tutorial Part - 1
+==================
+
+1) Active All Router interface
+
+	Core Router
+	===========
+	int gig0/0
+	ip add 10.10.10.1 255.255.255.0
+	no sh
+
+	ISP Router
+	===========
+	int gig0/0
+	ip add 10.10.10.2 255.255.255.0
+	no sh
+
+	int gig0/1
+	ip add 20.20.20.1 255.255.255.0
+	no sh
+
+	HOME Router
+	============
+	int gig0/0
+	ip add 20.20.20.2 255.255.255.0
+	no sh
+
+	int gig0/1
+	ip add 192.168.1.1 255.255.255.0
+	no sh
+	
+	
+
+2) Rip route configuration on router
+
+	Core Router
+	============
+	router rip
+	network 10.10.10.0
+
+	ISP Router
+	==========
+	router rip
+	network 10.10.10.0
+	network 20.20.20.0
+
+	HOME Router
+	===========
+	router rip
+	network 20.20.20.0
+	network 192.168.1.0
+
+Tutorial Part - 2
+==================
+1) Configure DHCP On Core router
+
+	Core Router
+	============
+	ip dhcp pool kartikghosh4411
+	default-router 192.168.1.1
+	network 192.168.1.0 255.255.255.0
+	dns-server 192.168.1.2
+
+2) Then Home router accept dhcp connection
+	
+	HOME Router
+	============
+	int gig0/1
+	ip helper-address 10.10.10.1
+
+Tutorial Part - 3
+==================
+1) Then check all pc dhcp ip assian or not
+2) And send message
+3) Exclude 192.168.1.0 to 192.168.1.10 then start ip 192.168.1.11 because 192.168.1.10 our router ip
+
+	Core Router
+	============
+	ip dhcp excluded-address 192.168.1.0 192.168.1.10
+	do wr
+
+Thank you
+kartik Chandra ghosh
+@kartikghosh4411
