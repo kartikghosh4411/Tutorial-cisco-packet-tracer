@@ -1,0 +1,78 @@
+Tutorial Name: Configure Vlan with trunk in cisco switch
+Tutorial Creator Name: Kartik Chandra Ghosh
+
+Tutorial part - 001
+=======================
+1) create vlan in switch
+
+	Dhaka switch
+	=============
+	vlan 10
+	name sales
+
+	vlan 20
+	name marketing
+
+	Noakhali switch
+	================
+	vlan 10
+	name sales
+	
+	vlan 20
+	name marketing
+
+2) Then access port in vlan
+	
+	Dhaka switch
+	=============
+	int fa0/3
+	switchport access vlan 10
+	
+	int fa0/2
+	switchport access vlan 20
+
+	Noakhali switch
+	================
+	int fa0/3
+	switchport access vlan 10
+
+	int fa0/2
+	switchport access vlan 20
+
+Tutorial part - 002
+=======================
+1) switch to switch mode trunk
+	
+	Dhaka switch
+	==============
+	int fa0/1
+	switchport mode trunk
+
+	Noakhali switch
+	=================
+	int fa0/1
+	switchport mode trunk
+
+2) Then assian ip all pc
+	ipconfig 192.168.1.1 255.255.255.0
+	ipconfig 192.168.1.2 255.255.255.0
+	ipconfig 192.168.1.3 255.255.255.0
+	ipconfig 192.168.1.4 255.255.255.0
+
+3) then check work or not
+
+
+Thank you
+Kartik Chandra Ghosh
+@kartikghosh4411
+	
+	
+	
+
+
+
+
+
+
+
+
