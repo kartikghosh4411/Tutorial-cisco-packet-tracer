@@ -1,0 +1,33 @@
+Tutorial Name: Configure DHCP Service using Cisco Packet Tracer
+Tutorial Creator Name: Kartik Chandra Ghosh
+
+Tutorial part - 001
+=======================
+1) setup dhcp service
+
+	ip dhcp pool kartikghosh4411
+	default-router 192.168.1.1
+	network 192.168.1.0 255.255.255.0
+	dns-server 192.168.1.2
+
+2) Then check all pc/laptop dhcp ip assian or not
+
+Tutorial part - 002
+=====================
+1) If you need exclude some range ip then type this command
+	ip dhcp excluded-address 192.168.1.0 192.168.1.10
+
+2) Then save this configuration
+	wr
+
+Thank you
+Kartik Chandra Ghosh
+@kartikghosh4411
+
+
+
+
+
+	
+	
+	
